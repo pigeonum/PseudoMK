@@ -4,4 +4,4 @@ project(pseudoMK C)
 set(CMAKE_C_STANDARD 17)
 
 add_executable(disasm
-        disasm.c)
+        src/disasm.c)
