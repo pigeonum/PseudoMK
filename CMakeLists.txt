@@ -3,5 +3,6 @@ project(pseudoMK C)
 
 set(CMAKE_C_STANDARD 17)
 
-add_executable(disasm
-        src/disasm.c)
+add_executable(disasm src/disasm.c)
+
+target_include_directories(disasm PRIVATE ${CMAKE_SOURCE_DIR}/include)
